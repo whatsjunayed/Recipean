@@ -12,7 +12,7 @@ const page = async ({ params }) => {
   return (
     <>
       <div className="w-full h-screen ">
-        <h1 className="text-center py-12 text-4xl font-semibold">{acceptDetails.name} </h1>
+        <h1 className="text-center pt-24 pb-10 text-4xl font-semibold">{acceptDetails.name} </h1>
         <div className="grid py-10 sm:grid-cols-2 w-[85%] items-center justify-center mx-auto shadow-[5px_2px_15px_black]">
           <img src={acceptDetails.image} alt="" className=" w-[90%] sm:w-[60%] mx-auto" />
           <div className="px-10 my-6">
